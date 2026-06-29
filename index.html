@@ -50,17 +50,22 @@ padding: 60px 20px;
 
 .cards {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 gap: 20px;
 margin-top: 30px;
 }
 
 .card {
 background: white;
-padding: 20px;
+padding: 25px;
 border-radius: 12px;
 box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 text-align: center;
+}
+
+.card h3 {
+color: #0b3d91;
+margin-bottom: 10px;
 }
 
 .contact {
@@ -95,24 +100,37 @@ font-size: 0.9rem;
 </header>
 
 <section>
-<h2>Insurance Services</h2>
+<h2>Coverage Options</h2>
 
 <div class="cards">
-<div class="card">Term Life Insurance</div>
-<div class="card">Whole Life Insurance</div>
-<div class="card">Final Expense</div>
-<div class="card">Mortgage Protection</div>
-<div class="card">Indexed Universal Life</div>
-<div class="card">Retirement Planning</div>
+
+<div class="card">
+<h3>Term Life</h3>
+<p>Affordable coverage for a set period to protect your family’s financial future.</p>
+</div>
+
+<div class="card">
+<h3>Whole Life</h3>
+<p>Permanent coverage with guaranteed protection for life and cash value growth.</p>
+</div>
+
+<div class="card">
+<h3>Final Expense</h3>
+<p>Simple plans designed to cover funeral and end-of-life expenses.</p>
+</div>
+
 </div>
 </section>
 
 <section class="contact">
 <h2>Contact Me</h2>
+
 <p>Phone: <a href="tel:7604868393">760-486-8393</a></p>
 <p>Email: <a href="mailto:Mike_Villegas96@yahoo.com">Mike_Villegas96@yahoo.com</a></p>
 <p>Agency: Cristian Life Circle</p>
 <p>Licensed in: California</p>
+
+<a class="btn" href="mailto:Mike_Villegas96@yahoo.com">Request a Quote</a>
 </section>
 
 <footer>
